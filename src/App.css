@@ -1,38 +1,34 @@
 .App {
   text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(0,36,34);
+  background: linear-gradient(90deg, rgba(0,36,34,1) 0%, rgba(9,109,121,0.6336659663865547) 0%, rgba(0,212,255,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.EditButton{
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 0.5vw;
+  background-color:blue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.RemoveButton{
+  font-size: 1.5vw;
+  margin-right: 0.5vw;
+  margin-top: 1vw;
+  background-color:blue;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CompleteButton{
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  background-color:blue;
+  color: white;
+}
+
+.AddItemInput{
+  width: 20vw;
 }

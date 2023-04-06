@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import ToDoEditor from "./toDoEditor";
+import ToDoCreator from "./toDoCreator";
+
+let testKey = 1
+testKey = testKey.toString()
 
 function App() {
+   
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>To do list</h1>
+      <h3>Add a new item here, or edit the items below</h3>
+      <ToDoCreator/>
+      <hr class="solid"/>
+      <ToDoEditor/>
     </div>
   );
 }
