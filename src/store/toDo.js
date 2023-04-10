@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+//slice for todo app, including reducer
 export const toDoSlice = createSlice({
     name: "toDo",
 
